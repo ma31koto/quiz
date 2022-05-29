@@ -7,6 +7,7 @@ const correctAnswers = {
   question1: 'B',
   question2: 'A',
   question3: 'B',
+  question4: 'C'
 };
 
 
