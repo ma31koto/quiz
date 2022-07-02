@@ -33,8 +33,6 @@ function fetchAll() {
   return $questions;
 }
 
-
-
 function fetchById($id) {
   //ファイルを開く
   $handler = fopen(__DIR__.'/data.csv', 'r');

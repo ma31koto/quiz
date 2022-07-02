@@ -27,7 +27,6 @@ $formattedData = generateFormattedData($data);
 $correctAnswer = $formattedData['correctAnswer'];
 $correctAnswerValue = $formattedData['answers'][$correctAnswer];
 $explanation = $formattedData['explanation'];
-
 $result = $selectedAnswer === $correctAnswer;
 
 $response = [
